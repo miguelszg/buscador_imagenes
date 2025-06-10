@@ -11,6 +11,8 @@ function App() {
 
   const PEXELS_API_KEY: string = 'gDILo5Sow6JafwkIz6inzMpKdont9gV47gyORMzpYkbSRkrkz1oZXVvF';
 
+  //hola
+  
   useEffect(() => {
     fetchPhotos(query);
   }, [query]);
